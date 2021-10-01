@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Greetings", "Is anyone there","Hey","Hola", "Hello", "What's up?", "Good morning", "Good afternoon", "Good evening", "Nice to meet you"],
+         "responses": ["Hello!", "Hey!", "Hey, How can I help?"]
+        },
+        {"tag": "polite_questions",
+         "patterns": ["How are you", "How are you doing", "How have you been", "How’s your day going so far", "How’s it going", "How are things"],
+         "responses": ["I'm great", "I'm doing well", "Not bad", "Things are really good"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "adios", "bye-bye", "end", "stop"],
+         "responses": ["See you!", "Have a nice day", "Goodbye! Come back again."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Appreciate"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+	{"tag": "youtube",
+         "patterns": ["Play", "play the song", "Play some music", "search on youtube", "search for video"],
+         "responses": ["Opening YouTube", "Playing on YouTube"]
+        },
+	{"tag": "google",
+         "patterns": ["google search", "google it", "web search"],
+         "responses": ["Looking on google"]
+        },
+	{"tag": "wikipedia",
+         "patterns": ["search for", "what is", "who is", "how to", "look for"],
+         "responses": [""]
+        },
+	{"tag": "time",
+         "patterns": ["what time is it", "what is the time", "what hour is it"],
+         "responses": [""]
+        },
+	{"tag": "date",
+         "patterns": ["what is the date", "what is today's date"],
+         "responses": [""]
+        },
+	{"tag": "day",
+         "patterns": ["what day is it", "what's today"],
+         "responses": [""]
+        }
+   ]
+}
